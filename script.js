@@ -31,8 +31,8 @@ document.addEventListener("DOMContentLoaded", () => {
             });
         });
     }
-
-    // === Brand Tabs Switching ===
+  
+    // === Brand Tabs Switching to ease it ===
     const brandTabs = document.querySelectorAll(".brand-tab");
     brandTabs.forEach(tab => {
         tab.addEventListener("click", () => {
